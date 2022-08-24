@@ -1,101 +1,100 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    /*base 10*/
+  font-size: 62.5%;
 }
 
 body {
-    background-image: url(../images/background.jpg);
-    font-size: 1.5rem;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+  background-image: url(../images/background.jpg);
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 #backdrop {
-    z-index: -100;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background: #8888ceb3;
-    position: fixed;
+  z-index: -100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #8888ceb3;
+  position: fixed;
 }
 
 #title {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 3rem;
-    font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 #description {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 form {
-    width: 50%;
-    min-width: 650px;
-    margin: auto;
-    background-color: #1b1b32cc;
-    padding: 36px;
-    border-radius: 5px;
+  width: 50%;
+  min-width: 650px;
+  margin: auto;
+  background-color: #1b1b32cc;
+  padding: 36px;
+  border-radius: 5px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .textarea_cls {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    padding-top: 20px;
-    padding-bottom: 8px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 input,
 select {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
 
 .checkbox {
-    display: block;
+  display: block;
 }
 
 #submit {
-    width: 100%;
-    padding: 10px;
-    background: #37af65;
-    color: #ffffff;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-top: 30px;
-    border: none;
+  width: 100%;
+  padding: 10px;
+  background: #37af65;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 30px;
+  border: none;
 }
 
 @media only screen and (max-width: 800px) {
-    form {
-        width: 90%;
-        min-width: 90%;
-    }
+  form {
+    width: 90%;
+    min-width: 90%;
+  }
 }
 
 @media only screen and (max-width: 420px) {
-    form {
-        width: 100%;
-        min-width: 100%;
-    }
+  form {
+    width: 100%;
+    min-width: 100%;
+  }
 }
